@@ -10,13 +10,45 @@
     position: relative;
     box-sizing: border-box;
     display: inline-block;
-    font-size: 22px;
+    font-size: 16px;
     font-weight: 600;
-    width: 90%;
-    bottom: 5.3em;
+    width: 85%;
+    bottom: 8em;
+    left: 0.4em;
     color: #fff;
 }
 
 .accuracy > div {
     color: #fff;
+    font-size: 44px;
+}
+
+.percentage {
+    font-size: 16px;
+    color: #5D5F61;
+    margin-left: 0.4em;
+}
+
+.result-info {
+    position: relative;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+.result-num {
+    color: #fff;
+    font-size: 45px;
+    font-weight: 800;
+}
+
+.result-problems {
+    color: #5D5F61;
+}
+
+.result-title {
+    color: #fff;
+    font-size: 14px;
+    position: relative;
+    box-sizing: border-box;
+    right: 2.9em;
 }

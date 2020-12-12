@@ -39,7 +39,11 @@ const RadialCharts = () => {
                 startAngle={0}
                 viewBoxSize={[100, 100]}
                 ></PieChart>
-                <div className="accuracy">ACCURACY<div>{accuracy}%</div></div>
+                <div className="accuracy">ACCURACY<div>{accuracy}<span className="percentage">%</span></div></div>
+            </div>
+            <div className="result-info">
+                <div><div className="result-title">COMPLETED</div><div><span className="result-num">100</span> <span className="result-problems">Problems</span></div></div>
+                <div><div className="result-title">CORRECT</div><div><span className="result-num">75</span> <span className="result-problems">Problems</span></div></div>
             </div>
         </div>
     )
