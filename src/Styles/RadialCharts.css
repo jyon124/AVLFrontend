@@ -1,0 +1,22 @@
+.chart-wrapper {
+    position: relative;
+    box-sizing: border-box;
+    display: inline-block;
+    width: 12em !important;
+    margin: 3em;
+}
+
+.accuracy {
+    position: relative;
+    box-sizing: border-box;
+    display: inline-block;
+    font-size: 22px;
+    font-weight: 600;
+    width: 90%;
+    bottom: 5.3em;
+    color: #fff;
+}
+
+.accuracy > div {
+    color: #fff;
+}
